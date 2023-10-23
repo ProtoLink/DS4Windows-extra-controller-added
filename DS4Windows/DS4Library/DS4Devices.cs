@@ -128,6 +128,7 @@ namespace DS4Windows
             new VidPidInfo(SONY_VID, 0xBA0, "Sony WA", InputDeviceType.DS4),
             new VidPidInfo(SONY_VID, 0x5C4, "DS4 v.1"),
             new VidPidInfo(SONY_VID, 0x09CC, "DS4 v.2", InputDeviceType.DS4),
+            new VidPidInfo(0x054C, 0x09CC, "Ace Gamer Wireless Controller", InputDeviceType.DS4),
             new VidPidInfo(SONY_VID, 0x0CE6, "DualSense", InputDeviceType.DualSense, VidPidFeatureSet.DefaultDS4, DualSenseDevice.DetermineConnectionType),
             new VidPidInfo(SONY_VID, 0x0DF2, "DualSense Edge", InputDeviceType.DualSense, VidPidFeatureSet.DefaultDS4, DualSenseDevice.DetermineConnectionType),
             new VidPidInfo(RAZER_VID, 0x1000, "Razer Raiju PS4"),
